@@ -38,15 +38,8 @@ const pt = {
     secondaryCta: 'Ver projetos',
     whatsappMessage:
       'Olá! Vim pelo site da Nexa Agency e quero falar sobre um projeto.',
-    sideCard: {
-      label: 'Disponível para novos projetos',
-      title: 'Atendimento remoto',
-      subtitle: 'Brasil e exterior',
-      cta: 'Agendar conversa',
-    },
     scoreCard: {
       label: 'Avaliação média dos clientes',
-      note: 'Baseado em projetos entregues nos últimos 12 meses',
     },
     socialLabel: 'Redes sociais',
   },
@@ -311,15 +304,8 @@ const en: Dictionary = {
     primaryCta: 'Start my project',
     secondaryCta: 'See our work',
     whatsappMessage: 'Hi! I found Nexa Agency online and would like to discuss a project.',
-    sideCard: {
-      label: 'Available for new projects',
-      title: 'Fully remote',
-      subtitle: 'Brazil and worldwide',
-      cta: 'Book a call',
-    },
     scoreCard: {
       label: 'Average client rating',
-      note: 'Based on projects delivered in the last 12 months',
     },
     socialLabel: 'Social media',
   },
