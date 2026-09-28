@@ -174,6 +174,12 @@ const pt = {
         description: 'Site para apresentar os buquês e atrair novos clientes.',
         url: 'https://rosinhacamposbuques.vercel.app/',
       },
+      {
+        name: 'Doce Encanto Ateliê',
+        category: 'Confeitaria',
+        description: 'Site para apresentar os doces e atrair novos clientes.',
+        url: 'https://doce-encanto-atelier-2026.tm423655.chatgpt.site/',
+      },
     ],
   },
 
@@ -440,6 +446,12 @@ const en: Dictionary = {
         category: 'Florist',
         description: 'Website built to showcase the bouquets and attract new clients.',
         url: 'https://rosinhacamposbuques.vercel.app/',
+      },
+      {
+        name: 'Doce Encanto Ateliê',
+        category: 'Confectionery',
+        description: 'Website built to showcase the sweets and attract new clients.',
+        url: 'https://doce-encanto-atelier-2026.tm423655.chatgpt.site/',
       },
     ],
   },
