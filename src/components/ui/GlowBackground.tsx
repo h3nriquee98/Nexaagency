@@ -12,37 +12,6 @@ export function GlowBackground({ className = '' }: { className?: string }) {
   )
 }
 
-/**
- * Arcos finos em gradiente citando o desenho de fundo da logo.
- * Usado apenas no hero, para nao competir com o conteudo das demais secoes.
- */
-export function CornerArcs() {
-  return (
-    <svg
-      aria-hidden
-      className="pointer-events-none absolute inset-0 -z-10 size-full"
-      viewBox="0 0 1440 900"
-      preserveAspectRatio="none"
-      fill="none"
-    >
-      <defs>
-        <linearGradient id="nexa-arc" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#22d9ff" stopOpacity="0.85" />
-          <stop offset="60%" stopColor="#0b5bff" stopOpacity="0.4" />
-          <stop offset="100%" stopColor="#0736a8" stopOpacity="0" />
-        </linearGradient>
-      </defs>
-      <path d="M-120 330 C 60 120, 250 -30, 470 -110" stroke="url(#nexa-arc)" strokeWidth="2" />
-      <path d="M-160 250 C 30 40, 210 -90, 430 -170" stroke="url(#nexa-arc)" strokeWidth="1" />
-      <path
-        d="M1560 600 C 1380 790, 1200 910, 980 990"
-        stroke="url(#nexa-arc)"
-        strokeWidth="2"
-      />
-    </svg>
-  )
-}
-
 /** Textura de ruido sutil, para o fundo escuro nao parecer chapado. */
 export function NoiseOverlay() {
   return (
